@@ -1,0 +1,160 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+ @layer utilities {
+
+    .form-select{
+         @apply   w-full text-gray-700 rounded-xl border-2 border-color-secondry   focus:border-color-primary focus:ring-2 focus:ring-blue-300 text-base outline-none py-1 px-3 leading-8 transition-colors duration-200 ease-in-out
+
+        }
+
+    .form-input{
+       @apply w-full text-gray-700 rounded-xl border-2 border-primary-two   focus:border-color-primary focus:ring-2 focus:ring-blue-300 text-base outline-none px-3 leading-8 transition-colors duration-200 ease-in-out placeholder-black
+
+    }
+
+    .btn{
+        @apply bg-color-primary hover:bg-color-secondry transition duration-500 ease-in-out text-white text-center w-full py-2 text-lg font-semibold rounded leading-8 cursor-pointer;
+    }
+
+    .btn-nav{
+        @apply bg-color-secondry hover:bg-color-secondry-light transition duration-500 ease-in-out text-white text-center w-auto py-2 px-4 text-lg font-semibold rounded leading-8 cursor-pointer;
+    }
+
+    .btn-disabled{
+        @apply bg-color-primary  motion-reduce:hidden cursor-not-allowed;
+    }
+
+    .btn-reverse{
+        @apply border-2 border-color-secondry hover:bg-color-secondry-light transition duration-500 ease-in-out text-white text-center w-full py-2 text-lg font-semibold rounded leading-8;
+    }
+
+
+    .bg-primary{
+      @apply  bg-gradient-to-r from-color-primary to-blue-300;
+    }
+
+    .bg-secondry{
+        @apply bg-gradient-to-r from-blue-800  to-blue-500
+    }
+
+    .margin-x{
+        @apply mx-4 md:mx-0
+    }
+
+    .border-secondry{
+        @apply border-blue-700
+    }
+
+    .border-primary{
+        @apply border-red-700
+    }
+
+    .heading-primary{
+        @apply text-3xl md:text-4xl text-center font-bold my-4 text-color-primary
+    }
+
+
+
+    .heading-secondry{
+        @apply text-center font-bold text-lg   text-color-secondry
+    }
+
+    /* sample page heading */
+    .sample-heading{
+        @apply bg-primary text-white py-2 px-10 text-[200%] w-full text-center my-4
+    }
+
+    hr{
+        @apply bg-color-secondry
+    }
+
+    /* testimonial margin and padding */
+    .testimonial-space{
+        @apply px-12 md:py-14 md:px-40 text-xl text-center
+    }
+
+    /* Navbar */
+    .nav-item {
+        @apply py-4 px-4 font-semibold  transition duration-300;
+    }
+
+    .input-control{
+        @apply w-full rounded bg-transparent border-[2px] border-[#818a91] text-base outline-none text-black px-3 py-2 leading-8 transition-colors duration-200 ease-in-out;
+    }
+
+    .border-nav{
+        @apply border-b-4 border-blue-400
+    }
+
+    .button-primary{
+       @apply text-white bg-color-secondry hover:bg-primary hover:text-white  border-0 py-1 px-4  rounded text-lg text-center mb-3 mx-20 md:mx-4 md:mb-0
+    }
+
+    .btn-one{
+       @apply shadow-lg bg-primary hover:bg-color-secondry border-color-primary text-white rounded-md py-3 px-4 font-semibold transition duration-300
+    }
+
+
+    /* Typography */
+
+    h1{
+        @apply font-bold text-4xl leading-10
+    }
+
+    h2 {
+        @apply text-center text-2xl leading-10 my-4
+    }
+
+    h5 {
+        @apply text-color-primary text-3xl
+    }
+
+    h6{
+        @apply text-center text-lg md:text-2xl leading-8 my-2 mx-4 md:mx-0 text-color-secondry-light
+    }
+
+    a{
+        @apply text-color-primary
+    }
+
+    p{
+        @apply my-2;
+    }
+
+    /* service image background colour */
+    .service-image{
+        @apply bg-color-secondry
+    }
+
+    /* Services Typography */
+
+
+    .service-show-section h1{
+        @apply text-xl lg:text-5xl md:text-2xl font-bold text-color-secondry text-center
+    }
+    .service-show-section h2{
+        @apply text-lg lg:text-3xl md:text-xl font-bold text-color-secondry;
+    }
+
+    .service-show-section h3{
+        @apply text-lg lg:text-2xl md:text-xl font-bold text-color-secondry text-center;
+    }
+    .service-show-section h4{
+        @apply text-lg lg:text-3xl md:text-xl font-bold text-color-secondry;
+    }
+    .service-show-section p{
+        @apply my-2
+    }
+
+    .service-show-section ul{
+        @apply mx-4
+    }
+    .service-show-section li{
+        @apply  list-disc
+    }
+
+}
+
+

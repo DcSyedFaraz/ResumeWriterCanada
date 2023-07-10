@@ -1,0 +1,25 @@
+User:
+    name
+    email
+    phone
+    address
+    city
+    state
+    country
+    zip code
+
+Order
+    id
+
+    status_id
+
+Order_Status
+    id
+    name
+    css-color
+
+Invoices
+    id
+    Amount
+    user_id
+    order_id
