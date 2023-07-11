@@ -40,7 +40,7 @@ use Carbon\Carbon;
 
     function addCurrency($value)
     {
-        return number_format((float)$value, 2, '.', '')." USD";
+        return number_format((float)$value, 2, '.', '')." CAD";
     }
 
     function showDateTime($date)

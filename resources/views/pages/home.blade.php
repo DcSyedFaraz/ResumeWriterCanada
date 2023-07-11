@@ -1,4 +1,7 @@
 @extends('layouts.web')
+@section('title','Canada’s #1 Resume Writing Service – Trusted Resume Writers')
+@section('description','The top-rated Professional Resume writing service in Canada. Hire our Certified Resume Writers in Canada and find the job you deserve! Live Help from Experts.')
+@section('canonical', config('app.url'))
 
 @section('content')
     <!-- Hero Section -->
@@ -15,16 +18,16 @@
                 </p>
                 <div>
                     <button class="bg-[#00536D] hover:bg-[#003241] text-white font-bold py-2 px-12 rounded mt-3">
-                        <a href="{{ route("order") }}" style="color:white;">GET A PERFECT CV</a>
+                        <a href="{{ route("order") }}" style="color:white;">GET A PERFECT RESUME</a>
                     </button>
                 </div>
             </div>
             <!-- lOGO dIV -->
             <div class="mt-8">
-                <img class="mx-auto" src="imgs/perfect-cv-reviews.png" alt="perfect-cv">
+                <img class="mx-auto" src="imgs/perfect-cv-reviews1.svg" alt="perfect-cv">
             </div>
             <!-- 5 section Text -->
-            <div class="grid grid-cols-2 lg:grid-cols-5 mt-14 justify-evenly mx-auto uppercase">
+            <div class="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-5 mt-14 justify-evenly mx-auto uppercase">
                 <!-- 1st -->
                 <div>
                     <p class="font-semibold text-xl lg:text-xl">
@@ -38,21 +41,21 @@
                     </p>
                 </div>
                 <!-- 3rd -->
-                <div class="hidden lg:grid">
+                <div class=" ">
                     <p class="font-semibold text-xl lg:text-xl">
                          LinkedIn Profile
                     </p>
                 </div>
                 <!-- 4th -->
-                <div class="hidden lg:grid">
+                <div class=" ">
                     <p class="font-semibold text-xl lg:text-xl">
                         Free Resume REVIEW
                     </p>
                 </div>
                 <!-- 5th -->
-                <div class="hidden lg:grid">
+                <div class=" ">
                     <p class="font-semibold text-xl lg:text-xl ">
-                        ATS-Friendly RESumes
+                        ATS-Friendly Resumes
                     </p>
                 </div>
             </div>
@@ -64,17 +67,15 @@
         <div class="container mx-auto px-4">
             <!-- Text Div -->
             <div class="txt pt-8">
-                <h2 class=" text-xl lg:text-3xl text-[#293241] font-bold">
-                    Kickstart Your Career with the  <span class="text-red-600">Best Resume Writer </span>  Canada
-                </h2>
+                <h4 class=" text-2xl lg:text-3xl text-[#293241] font-bold">
+                    Get a Custom CV from the Leading   <span class="text-red-600">Resume Writing Services </span>   at Affordable Prices
+                </h4>
             </div>
             <!-- Grid start -->
             <div class="grid grid-cols-1 lg:grid-cols-2 mt-6 xl:px-20">
                 <!-- Grid 1 of chat  -->
                 <div>
-                    <h3 class=" text-base lg:text-xl text-[#293241] font-semibold">
-                        Now, no more waiting for the Right Interview Call
-                    </h3>
+
                     <!-- Grid for chat messages -->
                     <div class="messagebox lg:space-y-16">
                         <!-- right chat -->
@@ -89,14 +90,14 @@
                                 </div>
                             </div>
                             <div class="shadow-2xl ml-6 bg-white border border-white rounded-full w-14 h-14 ">
-                                <img src="imgs/client.png" alt="">
+                                <img src="imgs/client.svg" alt="">
                             </div>
                         </div>
                         <!-- Left CHat -->
                         <div class="grid grid-cols-3 mt-3">
                             <div
                                 class=" float-right col-span-1 shadow-2xl bg-white border border-white rounded-full w-14 h-14 ">
-                                <img src="imgs/writer.png" alt="">
+                                <img src="imgs/writer.svg" alt="">
                             </div>
                             <!-- columns 2 -->
                             <div class=" -ml-10 md:-ml-20 lg:-ml-28 xl:-ml-36  2xl:-ml-48 col-span-2 text-left">
@@ -112,7 +113,7 @@
                         <div class="grid grid-cols-3 mt-3">
                             <div
                                 class=" float-right col-span-1 shadow-2xl bg-white border border-white rounded-full w-14 h-14 ">
-                                <img src="imgs/writer.png" alt="">
+                                <img src="imgs/writer.svg" alt="">
                             </div>
                             <!-- columns 2 -->
                             <div class=" -ml-10 md:-ml-20 lg:-ml-28 xl:-ml-36  2xl:-ml-48 col-span-2 text-left">
@@ -135,14 +136,14 @@
                                 </div>
                             </div>
                             <div class="shadow-2xl ml-6 bg-white border border-white rounded-full w-14 h-14 ">
-                                <img src="imgs/client.png" alt="">
+                                <img src="imgs/client.svg" alt="">
                             </div>
                         </div>
                         <!-- Left chat -->
                         <div class="grid grid-cols-3 mt-3">
                             <div
                                 class=" float-right col-span-1 shadow-2xl bg-white border border-white rounded-full w-14 h-14 ">
-                                <img src="imgs/writer.png" alt="">
+                                <img src="imgs/writer.svg" alt="">
                             </div>
                             <!-- columns 2 -->
                             <div class=" -ml-10 md:-ml-20 lg:-ml-28 xl:-ml-36  2xl:-ml-48 col-span-2 text-left">
@@ -256,7 +257,7 @@
     <section>
         <div class="container mx-auto px-4">
             <div class="lg:px-10 text-center">
-                <h3 class="text-base lg:text-4xl font-bold text-[#333333e3] text-center pt-5">Kickstart Your Career with the <span class="text-red-600">Best Resume </span>  Writer Canada</h3>
+                <h2 class="text-2xl lg:text-4xl font-bold text-[#333333e3] text-center pt-5">Kickstart Your Career with the <span class="text-red-600">Best Resume </span>  Writer Canada</h2>
             <p class="text-center pb-5">Now, no more waiting for the Right Interview Call</p>
             <p>You may have done an Awesome job on your resume. But not getting the expected interview call is a sign that you are lacking somewhere. An expert overview can help you overcome the gap. And that’s what our resume writer Canada is meant for. From resume editing to writing a career profile, LinkedIn summary and cover letters, we can help you win your job with an OUTSTANDING RESUME.</p>
             <p>Now, you must be thinking what makes us Unique from other resume services Ontario, Toronto? </p>
@@ -269,7 +270,7 @@
     <section>
         <div class="container mx-auto px-4">
             <div class="lg:px-10 text-center">
-                <h3 class="text-base lg:text-4xl font-bold text-[#333333e3] text-center py-10">Resume Writing Services for <span class="text-red-600">Fresh Graduates </span>  at Cheapest Rates</h3>
+                <h3 class="text-2xl lg:text-4xl font-bold text-[#333333e3] text-center py-10">Resume Writing Services for <span class="text-red-600">Fresh Graduates </span>  at Cheapest Rates</h3>
                 <p>Knowing what to include and what to exclude in a freshers resume is important to increase your chances of getting the interview call. You might think there’s nothing to add in a beginner’s CV but if you dig deep into your academic journey, you will find your participation in the extracurricular activities, projects, volunteering experience and also work experience that you can highlight in your resume.</p>
                 <p>Having professional services on your side can guide what to put in your resume and how to do it to make it shine among other candidates. They can also help you demonstrate the transferable skills to bring you up on the list. Not only this, they can also save you from the grammatical errors, blank spaces, repetition and a lengthy resume that can put the recruiters off your profile.</p>
                 <p>Our resume writing services Ottawa, Vancouver, Edmonton, Calgary, Montreal Canada are meant to assist you in your career with a tailored resume, cover letter and other important career services. So, if you’re a fresh graduate and tired of waiting, how about talking to our experts to clear the worries of your mind. And the best part is we are easy on pockets. So, being a student if your greatest worry is Affordability then you can trust us with this factor as we offer cheapest rates to help you progress in your career.  </p>
@@ -283,11 +284,11 @@
         <div class="container mx-auto px-4">
             <!-- text div -->
             <div class="text text-center">
-                <h4 class="text-base lg:text-4xl font-bold text-[#333333e3]">
+                <h3 class="text-2xl lg:text-4xl font-bold text-[#333333e3]">
                     Land your Dream Job in 30 Days with  <span class="text-red-600">
                         Our Resume Maker Canada
                     </span>
-                </h4>
+                </h3>
                 <p class="text-sm lg:text-base font-normal text-[#003333e0] mt-1 ">
                     Many candidates apply for the same job you wish to have, what’s X Factor in your resume that can get you hired fast? Here’s what we offer:
                 </p>
@@ -298,7 +299,7 @@
                 <!-- Grid 1 -->
                 <div class="">
                     <div class="flex lg:justify-evenly justify-center">
-                        <img class="" src="imgs/pick-your-package.png" alt="">
+                        <img class="" src="imgs/pick-your-package.svg" alt="">
                         <img class="hidden  lg:grid w-10 h-8 mt-12" src="imgs/arrow-right.png" alt="">
                     </div>
                     <div>
@@ -309,7 +310,7 @@
                 <!-- Grid 2 -->
                 <div class="">
                     <div class="flex lg:justify-evenly justify-center">
-                        <img class="" src="imgs/expert-cv-writer.png" alt="">
+                        <img class="" src="imgs/expert-cv-writer.svg" alt="">
                         <img class="hidden  lg:grid w-10 h-8 mt-12" src="imgs/arrow-right.png" alt="">
                     </div>
                     <div>
@@ -320,7 +321,7 @@
                 <!-- Grid 3 -->
                 <div class="">
                     <div class="flex lg:justify-evenly justify-center">
-                        <img class="" src="imgs/cv-writer-garner.png" alt="">
+                        <img class="" src="imgs/cv-writer-garner.svg" alt="">
                         <img class="hidden  lg:grid w-10 h-8 mt-12" src="imgs/arrow-right.png" alt="">
                     </div>
                     <div>
@@ -331,7 +332,7 @@
                 <!-- Grid 4 -->
                 <div class="">
                     <div class="flex lg:justify-evenly justify-center">
-                        <img class="" src="imgs/expert-cv-writer.png" alt="">
+                        <img class="" src="imgs/expert-cv-writer.svg" alt="">
 
                     </div>
                     <div>
@@ -341,7 +342,7 @@
                 </div>
             </div>
             <div class="text-center mx-auto">
-                <img class="hidden lg:grid pl-32" src="imgs/line.png" alt="">
+                <img class="hidden lg:grid pl-32" src="imgs/line.svg" alt="">
             </div>
 
         </div>
@@ -354,10 +355,10 @@
         <div class="container mx-auto px-4">
             <!-- text div -->
             <div class="text text-center pt-10">
-                <h4 class="text-base lg:text-4xl font-bold text-[#333333e3]">
+                <h3 class="text-2xl lg:text-4xl font-bold text-[#333333e3]">
                     Get Hired Faster with Our <span class="text-red-600">Resume Writing </span> Services Ontario
                     </span>
-                </h4>
+                </h3>
 
 
             </div>
@@ -391,11 +392,11 @@
 
             <div class="p-12">
                 <div class="border-b-2  border-primary-two p-4">
-                    <p class="font-bold text-2xl">Job Specific Resumes</p>
+                    <p class="font-bold text-2xl">Job Specific Resume</p>
                     <p>If you’re dropping general Resumes everywhere, there are barely any chances of securing the job. Every application requires a personalized touch regardless of your experience and common features. That’s where our experts come to the rescue. Our team of top resume builder Canada works on your application from the scratch considering your experience, skills and strengths. And then come up with a Resume that speaks all about You according to the job description. Isn’t that Awesome?</p>
                 </div>
                 <div class="border-b-2  border-primary-two p-4">
-                    <p class="font-bold text-2xl">Cover Letters</p>
+                    <p class="font-bold text-2xl">Cover Letter</p>
                     <p>A well-written Cover Letter can make a huge difference. It shows your enthusiasm and curiosity to explore the job opportunity. Not only this, it acts as a Bonus for your resume. You can highlight your additional capabilities and flexibility to adapt to the requirements. We don’t want you to miss this opportunity with a general letter. Being one of the top resume writing services Canada, we can help with your letter too. A letter so strong that will reflect your unique capabilities and will give you an edge over other candidates. Let’s get started!</p>
                 </div>
                 <div class="border-b-2  border-primary-two p-4">
@@ -411,7 +412,7 @@
                     <p>Our Resume Editors have edited more than 100 job applications and tailored them according to the job description. They have also made it grammatically perfect, reduced the clutter and displayed the candidate’s strength for the professional or academic position. We can help you with yours too to make an Outstanding first impression with your job application. </p>
                 </div>
                 <div class="p-4">
-                    <p class="font-bold text-2xl">Career Switch Resumes</p>
+                    <p class="font-bold text-2xl">Career Switch Resume</p>
                     <p>A career transition isn’t an easy move. You need to display it on your resume with the right words and tailor the experience to the specific role. Many professionals find it impossible to show it in a resume. If you’re also going for a career transition, let us make it easy for you with an impactful resume. Our resume services Toronto can help you ease the process to make your profile strong to the future employers.  </p>
                 </div>
             </div>
@@ -424,7 +425,7 @@
         <div class="container mx-auto px-4 ">
             <!-- text div -->
             <div class="pt-10">
-                <h4 class="text-base lg:text-3xl font-bold text-[#333333e3]">
+                <h4 class="text-2xl lg:text-3xl font-bold text-[#333333e3]">
                     Meet Our   <span class="text-[#003241]">
                         Happy Customers
                     </span>
@@ -443,7 +444,7 @@
                         <div class="swiper-slide ">
                             <div class="shadow-xl">
                                 <div class="flex justify-center">
-                                    <img class="border-b w-[130px] h-[130px]" src="{{ asset('imgs/testimonial/test-1.png') }}" alt="">
+                                    <img class="border-b w-[130px] h-[130px]" src="{{ asset('imgs/testimonial/test-1.svg') }}" alt="">
                                 </div>
 
                                 <!-- Content Div -->
@@ -462,7 +463,7 @@
                         <div class=" swiper-slide">
                             <div class="shadow-xl">
                                 <div class=" flex justify-center ">
-                                    <img class="border-b w-[130px] h-[130px]" src="{{ asset('imgs/testimonial/test-3.png') }}" alt="">
+                                    <img class="border-b w-[130px] h-[130px]" src="{{ asset('imgs/testimonial/test-3.svg') }}" alt="">
                                 </div>
                                 <!-- Content Div -->
                                 <div class=" bg-white p-4 text-center">
@@ -479,7 +480,7 @@
                         <div class=" swiper-slide">
                             <div class="shadow-xl">
                                 <div class=" flex justify-center ">
-                                    <img class="border-b w-[130px] h-[130px]" src="{{ asset('imgs/testimonial/test-2.png') }}" alt="">
+                                    <img class="border-b w-[130px] h-[130px]" src="{{ asset('imgs/testimonial/test-2.svg') }}" alt="">
                                 </div>
                                 <!-- Content Div -->
                                 <div class=" bg-white p-4 text-center">
@@ -496,7 +497,7 @@
                         <div class=" swiper-slide">
                             <div class="shadow-xl">
                                 <div class=" flex justify-center ">
-                                    <img class="border-b w-[130px] h-[130px]" src="{{ asset('imgs/testimonial/test-5.png') }}" alt="">
+                                    <img class="border-b w-[130px] h-[130px]" src="{{ asset('imgs/testimonial/test-5.svg') }}" alt="">
                                 </div>
                                 <!-- Content Div -->
                                 <div class=" bg-white p-4 text-center">
@@ -513,7 +514,7 @@
                         <div class=" swiper-slide">
                             <div class="shadow-xl">
                                 <div class=" flex justify-center ">
-                                    <img class="border-b w-[130px] h-[130px]" src="{{ asset('imgs/testimonial/test-4.png') }}" alt="">
+                                    <img class="border-b w-[130px] h-[130px]" src="{{ asset('imgs/testimonial/test-4.svg') }}" alt="">
                                 </div>
                                 <!-- Content Div -->
                                 <div class=" bg-white p-4 text-center">
@@ -544,11 +545,11 @@
         <div class="container mx-auto px-12">
             <!-- text div -->
             <div class="pt-10">
-                <h4 class="text-base lg:text-3xl font-bold text-[#333333e3]">
+                <h3 class="text-2xl lg:text-3xl font-bold text-[#333333e3]">
                     Reasons to Trust Our <span class="text-[#003241]">
                         Resume Writing Canada
                     </span>
-                </h4>
+                </h3>
             </div>
             <!--------------- 1. Start------------->
             <div class="flex mt-10 pb-4">
@@ -636,8 +637,8 @@
 
     <section>
         <div class="container mx-auto px-4">
-            <div class="lg:px-10 text-center"><h5 class="text-base lg:text-4xl font-bold text-[#333333e3] text-center py-10" >Enhance Your Resume <i class='fa-solid fa-arrow-right-long text-red-600'></i>
-                Boost Confidence <i class='fa-solid fa-arrow-right-long text-red-600'></i> Ace Interviews.<br> Get Assisted by the <span class="text-red-600"> Best Resume Writer Toronto</span></h5>
+            <div class="lg:px-10 text-center"><h3 class="text-2xl lg:text-4xl font-bold text-[#333333e3] text-center py-10" >Enhance Your Resume <i class='fa-solid fa-arrow-right-long text-red-600'></i>
+                Boost Confidence <i class='fa-solid fa-arrow-right-long text-red-600'></i> Ace Interviews.<br> Get Assisted by the <span class="text-red-600"> Best Resume Writer Toronto</span></h3>
                 <p class="my-4">Okay so you already have a resume but you aren’t sure whether it will fit the description or not, isn’t it? How about getting it checked by the experts and gaining complete satisfaction before you apply for the job. </p>
                 <p class="my-4">Our resume writing Toronto is ready to welcome your queries and get it sorted to make your decision easy. Our core purpose is to boost your resume which can add to your confidence later because confidence matters a lot in an interview. But if your resume doesn’t match the recruiter’s expectations then it won’t be a Win-Win for you. So, instead of regretting later, get in touch with our resume services Toronto and ace your interviews with an Impeccable Resume. Contact Today!</p></div>
         </div>
@@ -648,7 +649,7 @@
     <section>
         <div class="container mx-auto px-4 ">
           <div class="lg:px-10 text-center">
-            <h5 class="text-base lg:text-4xl font-bold text-[#333333e3] text-center py-10">Also Get Impactful <span class="text-red-600"> LinkedIn Profiles</span> that will Increase Your Visibility on the Search Engines  </h5>
+            <h5 class="text-2xl lg:text-4xl font-bold text-[#333333e3] text-center py-10">Also Get Impactful <span class="text-red-600"> LinkedIn Profiles</span> that will Increase Your Visibility on the Search Engines  </h5>
 
             <p>Your digital profile is important. Recruiters can search for you online. And if you don’t have a digital identity then it means you can lose a potential opportunity. But not to worry as we also offer LinkedIn services to boost your profile. If you aren’t on LinkedIn yet, we can help you create a profile or can also enhance the existing one with the keywords relevant to your field. Not only this, a strong “About” section about yourself is also important to attract the employer’s attention and demonstrate your career journey.</p>
 
@@ -748,11 +749,11 @@
         <div class="container mx-auto px-4">
             <div class="grid grid-cols-5 place-items-center ">
 
-                <div class="w-10 md:w-20"><img src="{{ asset('imgs/client-logos/ds-smith-logo.png') }}" alt=""></div>
-                <div class="w-15 md:w-auto"><img src="{{ asset('imgs/client-logos/apple-logo.png') }}" alt=""></div>
-                <div class="w-10 md:w-20"><img src="{{ asset('imgs/client-logos/nike.png') }}" alt=""></div>
-                <div class="w-10 md:w-24"><img src="{{ asset('imgs/client-logos/tesla-logo.png') }}" alt=""></div>
-                <div class="w-10 md:w-20"><img src="{{ asset('imgs/client-logos/virgin-money-bw-logo.png') }}" alt=""></div>
+                <div class="w-10 md:w-20"><img src="{{ asset('imgs/client-logos/ds-smith-logo.svg') }}" alt=""></div>
+                <div class="w-15 md:w-auto"><img src="{{ asset('imgs/client-logos/apple-logo.svg') }}" alt=""></div>
+                <div class="w-10 md:w-20"><img src="{{ asset('imgs/client-logos/nike.svg') }}" alt=""></div>
+                <div class="w-10 md:w-24"><img src="{{ asset('imgs/client-logos/tesla-logo.svg') }}" alt=""></div>
+                <div class="w-10 md:w-20"><img src="{{ asset('imgs/client-logos/virgin-money-bw-logo.svg') }}" alt=""></div>
 
             </div>
 

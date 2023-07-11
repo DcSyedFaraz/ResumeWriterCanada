@@ -3,7 +3,7 @@
     <div x-data="{ open: false }" class="flex flex-col px-4 mx-auto xl:items-center  xl:flex-row  xl:px-8 xl:space-x-2">
         <div class="p-4 flex flex-row items-center justify-between">
             <a class="flex items-center py-4 px-2" href="{{ route('home') }}">
-                <img src="{{ asset('imgs/logo.png') }}" alt="Logo" class="h-[6rem] mt-3">
+                <img src="{{ asset('imgs/logo.svg') }}" alt="Logo" class=" mt-3">
             </a>
             <button class="xl:hidden rounded-lg focus:outline-none focus:shadow-outline" @click="open = !open">
                 <svg fill="currentColor" viewBox="0 0 20 20" class="w-6 h-6">

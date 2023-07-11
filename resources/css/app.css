@@ -103,7 +103,7 @@
         @apply font-bold text-4xl leading-10
     }
 
-    h2 {
+    h2 , h4{
         @apply text-center text-2xl leading-10 my-4
     }
 

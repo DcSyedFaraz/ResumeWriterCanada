@@ -11,7 +11,7 @@ class PaymentController extends Controller
 {
     public function payment(Request $request)
     {
-    
+
         if ($request->query('reference')) {
 
             $invoice = Invoice::with('user')->where(['ref_no' => $request->query('reference')])->firstOrFail();
@@ -55,7 +55,7 @@ class PaymentController extends Controller
                 $intent = $stripe->paymentIntents->create([
                     'payment_method' => $request->payment_method_id,
                     'amount' => $invoice->amount,
-                    'currency' => 'usd',
+                    'currency' => 'cad',
                     'confirmation_method' => 'manual',
                     'confirm' => true,
                     'metadata' => [
@@ -68,7 +68,7 @@ class PaymentController extends Controller
                     ]
                 ]);
 
-               
+
 
 
                 $invoice->update(["status_id" => 5, "stripe_id" => $intent->id]);

@@ -10,9 +10,9 @@
                 <td>
                     <div>
                         # Order
-    
+
                         {{ config('app.name')}}
-    
+
                         <br>
                         <br>
                         <p><strong>  Career Level : {{$order->careerLevel->name}}</strong></p>
@@ -28,9 +28,9 @@
                         <p><strong>  Email : {{$user->email}}</strong></p>
                         <br>
                         <p><strong>  Phone : {{$order->phone}}</strong></p>
-    
+
                         <br>
-                        <p><strong>  Total Cost :{{ $fare->fare .' '.'USD' }}</strong></p>
+                        <p><strong>  Total Cost :{{ $fare->fare .' '.'CAD' }}</strong></p>
                         <br>
                     </div>
                 </td>

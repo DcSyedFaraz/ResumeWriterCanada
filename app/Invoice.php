@@ -16,7 +16,7 @@ class Invoice extends Model
         "gateway",
         "amount",
         "auto_mail"=>0,
-        "currency"=>'usd',
+        "currency"=>'cad',
         "stripe_id",
         "status_id",
         "order_id",
@@ -38,7 +38,7 @@ class Invoice extends Model
         return $this->belongsTo(Status::class, 'status_id');
     }
 
-  
+
     public function getRouteKeyName()
     {
         return 'ref_no';
